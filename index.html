@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title> Week 2 Workshop Assignment </title>
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Enter Your Details For Our Dating Website </h1>
@@ -13,54 +13,52 @@
                 <div>
                     <label for="avatar">Upload your image:</label> 
                     <input type="file" id="avatar" name="avatar" required> 
-                    <p> Image Preview: </p><img id="preview" width="500">
                 </div>
+                <p> Image Preview: </p><img id="preview" width="500">
             </fieldset>
             <fieldset>
                 <legend>Your Details.</legend>
                 <div>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name" placeholder="Your full name" required>
-                    </div>
-                    <div>
-                        <label>Gender:</label>
-                        <input type="radio" id="man" name="gender" value="man" required/>
-                        <label for="man">Man</label>
-                        <input type="radio" id="women" name="gender" value="women" required/>
-                        <label for="women">Women</label>
-                        <input type="radio" id="other" name="gender" value="other" required/>
-                        <label for="other">Other</label>
-                    </div>
-                    <div>
-                        <label for="age">Age</label>
-                        <input type="number" id="age" name="age">
-                    </div>
-                    <div>        
-                        <label for="dob">Date of Birth</label>
-                        <input type="date" id="dob" name="dob">
-                    </div>    
-                    <div>
-                        <label for="color">Favorite Color</label>
-                        <input type="color" id="color" name="color">
-                    </div>   
-                    <div>
-                        <label for="country">Country</label>
-                        <select name="country" id="country" required>
-                            <option disabled selected value="">Choose a country </option>
-                            <option value="brazil" name="country">Brazil</option>
-                            <option value="france" name="country">France</option>
-                            <option value="japan" name="country">Japan</option>
-                            <option value="lybia" name="country">Lybia</option>
-                            <option value="usa" name="country">U.S.A</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="salary">Salary</label>
-                        <span class="range-caption"> Poor </span>
-                        <input type="range" name="salary" id="salary"min="0" max="100" value="50">
-                        <span class="range-caption"> Rich </span>
-                    </div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your full name" required>
+                </div>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" id="man" name="gender" value="man" required/>
+                    <label for="man">Man</label>
+                    <input type="radio" id="women" name="gender" value="women" required/>
+                    <label for="women">Women</label>
+                    <input type="radio" id="other" name="gender" value="other" required/>
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age">
+                </div>
+                <div>        
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob">
+                </div>    
+                <div>
+                    <label for="color">Favorite Color</label>
+                    <input type="color" id="color" name="color">
+                </div>   
+                <div>
+                    <label for="country">Country</label>
+                    <select name="country" id="country" required>
+                        <option disabled selected value="">Choose a country </option>
+                        <option value="brazil" name="country">Brazil</option>
+                        <option value="france" name="country">France</option>
+                        <option value="japan" name="country">Japan</option>
+                        <option value="lybia" name="country">Lybia</option>
+                        <option value="usa" name="country">U.S.A</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="salary">Salary</label>
+                    <span class="range-caption"> Poor </span>
+                    <input type="range" name="salary" id="salary"min="0" max="100" value="50">
+                    <span class="range-caption"> Rich </span>
                 </div>
             </fieldset>
             <fieldset>
@@ -89,5 +87,6 @@
                 <input type="submit" value="submit">
             </div>
         </form>
+        <script type="text/javascript" src="https://url.nucamp.co/datingjs"></script>
     </body>
 </html>
